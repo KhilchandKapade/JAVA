@@ -439,48 +439,209 @@ public class Statement {
 		
 		
 		
-		
+ //-------------------------------------------------------------------------------------------------------------------------------------
+ //-------------------------------------------------------------------------------------------------------------------------------------
 		
 		 Scanner sc = new Scanner(System.in);
-	        int choice;
-	        do {
-	            System.out.println("Menu:");
-	            System.out.println("1. Add two numbers");
-	            System.out.println("2. Subtract two numbers");
-	            System.out.println("3. Exit");
-	            System.out.print("Enter your choice: ");
-	            choice = sc.nextInt();
-
-	            switch(choice) {
-	                case 1:
-	                    System.out.print("Enter first number: ");
-	                    int az = sc.nextInt();
-	                    System.out.print("Enter second number: ");
-	                    int bz = sc.nextInt();
-	                    System.out.println("Sum = " + (az + bz));
-	                    break;
-
-	                case 2:
-	                    System.out.print("Enter first number: ");
-	                    az = sc.nextInt();
-	                    System.out.print("Enter second number: ");
-	                    bz = sc.nextInt();
-	                    System.out.println("Difference = " + (az - bz));
-	                    break;
-
-	                case 3:
-	                    System.out.println("Exiting program.");
-	                    break;
-
-	                default:
-	                    System.out.println("Invalid choice, try again.");
-	            }
-	        } while(choice!= 3);
-	        sc.close();
+//	        int choice;
+//	        do {
+//	            System.out.println("Menu:");
+//	            System.out.println("1. Add two numbers");
+//	            System.out.println("2. Subtract two numbers");
+//	            System.out.println("3. Exit");
+//	            System.out.print("Enter your choice: ");
+//	            choice = sc.nextInt();
+//
+//	            switch(choice) {
+//	                case 1:
+//	                    System.out.print("Enter first number: ");
+//	                    int az = sc.nextInt();
+//	                    System.out.print("Enter second number: ");
+//	                    int bz = sc.nextInt();
+//	                    System.out.println("Sum = " + (az + bz));
+//	                    break;
+//
+//	                case 2:
+//	                    System.out.print("Enter first number: ");
+//	                    az = sc.nextInt();
+//	                    System.out.print("Enter second number: ");
+//	                    bz = sc.nextInt();
+//	                    System.out.println("Difference = " + (az - bz));
+//	                    break;
+//
+//	                case 3:
+//	                    System.out.println("Exiting program.");
+//	                    break;
+//
+//	                default:
+//	                    System.out.println("Invalid choice, try again.");
+//	            }
+//	        } while(choice!= 3);
+//	        sc.close();
 		
 		
-		
-		
+	        
+	            
+//	            
+//	                System.out.print("Enter an integer: ");
+//	                int numClass = sc.nextInt();
+//
+//	                if (numClass > 0) {
+//	                    if (numClass % 2 == 0) {
+//	                        System.out.println("Positive even");
+//	                    } else {
+//	                        System.out.println("Positive odd");
+//	                    }
+//	                } else {
+//	                    if (numClass < 0) {
+//	                        System.out.println("Negative");
+//	                    } else {
+//	                        System.out.println("Zero");
+//	                    }
+//	                }
+//	            
+	                
+	                
+	                
+	             // Input two numbers
+//	                System.out.print("Enter first number: ");
+//	                double num1 = sc.nextDouble();
+//
+//	                System.out.print("Enter second number: ");
+//	                double num2 = sc.nextDouble();
+//
+//	                // Input operator
+//	                System.out.print("Enter operator (+, -, *, /, %): ");
+//	                char operator = sc.next().charAt(0);
+//
+//	                double result;
+//
+//	                // Switch block for operation
+//	                switch (operator) {
+//	                    case '+':
+//	                        result = num1 + num2;
+//	                        System.out.println("Result: " + result);
+//	                        break;
+//	                    case '-':
+//	                        result = num1 - num2;
+//	                        System.out.println("Result: " + result);
+//	                        break;
+//	                    case '*':
+//	                        result = num1 * num2;
+//	                        System.out.println("Result: " + result);
+//	                        break;
+//	                    case '/':
+//	                        if (num2 != 0) {
+//	                            result = num1 / num2;
+//	                            System.out.println("Result: " + result);
+//	                        } else {
+//	                            System.out.println("Error: Division by zero");
+//	                        }
+//	                        break;
+//	                    case '%':
+//	                        if (num2 != 0) {
+//	                            result = num1 % num2;
+//	                            System.out.println("Result: " + result);
+//	                        } else {
+//	                            System.out.println("Error: Modulo by zero");
+//	                        }
+//	                        break;
+//	                    default:
+//	                        System.out.println("Invalid operator!");
+//	                }
+	            
+
+	
+	
+	                // Input the number
+	                System.out.print("Enter a number to print its multiplication table: ");
+	                int nu = sc.nextInt();
+
+                   // Loop from 1 to 10
+	                for (int i = 1; i <= 10; i++) {
+	                    System.out.println(nu + " x " + i + " = " + (nu * i));
+                }
+	            
+		 	
+		 
+		// Input the number
+//	        System.out.print("Enter a number: ");
+//	        int num = sc.nextInt();
+//
+//	        boolean isPrime = true;
+//
+//	        if (num <= 1) {
+//	            isPrime = false;
+//	        } else {
+//	            int i = 2;
+//	            while (i <= num / 2) {
+//	                if (num % i == 0) {
+//	                    isPrime = false;
+//	                    break;
+//	                }
+//	                i++;
+//	            }
+//	        }
+//
+//	        // Output result
+//	        if (isPrime) {
+//	            System.out.println("Prime");
+//	        } else {
+//	            System.out.println("Not Prime");
+//	        }
+//
+//	
+//	        
+		 
+		 
+//		 int choice;
+//
+//	        do {
+//	            // Display menu
+//	            System.out.println("\n--- Menu ---");
+//	            System.out.println("1. Find factorial");
+//	            System.out.println("2. Check palindrome number");
+//	            System.out.println("3. Exit");
+//	            System.out.print("Enter your choice: ");
+//	            choice = sc.nextInt();
+//
+//	            if (choice == 1) {
+//	                // Factorial logic
+//	                System.out.print("Enter a number: ");
+//	                int num = sc.nextInt();
+//	                long fact = 1;
+//	                for (int i = 1; i <= num; i++) {
+//	                    fact *= i;
+//	                }
+//	                System.out.println("Factorial of " + num + " is: " + fact);
+//
+//	            } else if (choice == 2) {
+//	                // Palindrome logic
+//	                System.out.print("Enter a number: ");
+//	                int num = sc.nextInt();
+//	                int original = num, reversed = 0;
+//
+//	                while (num != 0) {
+//	                    int digit = num % 10;
+//	                    reversed = reversed * 10 + digit;
+//	                    num /= 10;
+//	                }
+//
+//	                if (original == reversed) {
+//	                    System.out.println(original + " is a palindrome.");
+//	                } else {
+//	                    System.out.println(original + " is not a palindrome.");
+//	                }
+//
+//	            } else if (choice == 3) {
+//	                System.out.println("Exiting program. Goodbye!");
+//	            } else {
+//	                System.out.println("Invalid choice. Please try again.");
+//	            }
+//
+//	        } while (choice != 3);
+//
+//		
 		
 		
 		
