@@ -554,14 +554,14 @@ public class Statement {
 	
 	
 	                // Input the number
-	                System.out.print("Enter a number to print its multiplication table: ");
-	                int nu = sc.nextInt();
-
-                   // Loop from 1 to 10
-	                for (int i = 1; i <= 10; i++) {
-	                    System.out.println(nu + " x  is :" + i + " = " + (nu * i));
-                }
-	            
+//	                System.out.print("Enter a number to print its multiplication table: ");
+//	                int nu = sc.nextInt();
+//
+//                   // Loop from 1 to 10
+//	                for (int i = 1; i <= 10; i++) {
+//	                    System.out.println(nu + " x  is :" + i + " = " + (nu * i));
+//                }
+//	            
 		 	
 		 
 		// Input the number
@@ -642,6 +642,34 @@ public class Statement {
 //	        } while (choice != 3);
 //
 //		
+	                
+	                
+	                
+	        // break & continue ---------------------------------------------------------
+	                
+	                
+	           
+	           for(int i=1; i<=50; i++) {
+	        	   if (i % 3 !=0) {
+	        		   
+	        		   System.out.println(i);
+	        	   }
+	           }
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
 		
 		
 		
