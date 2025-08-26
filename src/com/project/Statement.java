@@ -659,11 +659,100 @@ public class Statement {
 	                
 	                
 	                
-	                
-	                
-	                
-	                
-	                
+//	                
+//	           1.	Write a Java program that takes an integer input and prints whether it’s odd or even using an if expression statement inside the main method.
+//	           --->
+//	            	import java.util.Scanner;
+//
+//	           public class OddEvenCheck {
+//	               public static void main(String[] args) {
+//	                   Scanner sc = new Scanner(System.in);
+//	                   System.out.print("Enter an integer: ");
+//	                   int num = sc.nextInt();
+//
+//	                   if (num % 2 == 0)
+//	                       System.out.println(num + " is Even");
+//	                   else
+//	                       System.out.println(num + " is Odd");
+//	               }
+//	           }
+//
+//	           2. Declare variables to store marks in 5 subjects. Take user input and calculate the average. Print whether the student passed (average ≥ 40) or failed.
+//	           --->
+//	            	import java.util.Scanner;
+//
+//	           public class MarksAverage {
+//	               public static void main(String[] args) {
+//	                   Scanner sc = new Scanner(System.in);
+//	                   int total = 0;
+//	                   int subjects = 5;
+//
+//	                   for (int i = 1; i <= subjects; i++) {
+//	                       System.out.print("Enter marks for subject " + i + ": ");
+//	                       int mark = sc.nextInt();
+//	                       total += mark;
+//	                   }
+//
+//	                   double average = total / (double) subjects;
+//	                   System.out.println("Average Marks: " + average);
+//
+//	                   if (average >= 40)
+//	                       System.out.println("Status: Passed");
+//	                   else
+//	                       System.out.println("Status: Failed");
+//	               }
+//	           }
+//
+//	           3. Write a program where you first initialize a number n = 10, then repeatedly update n = n * 2 inside a loop until n becomes greater than 500. Print all values of n.
+//	           ---->
+//	            	public class DoubleUntilLimit {
+//	               public static void main(String[] args) {
+//	                   int n = 10;
+//	                   while (n <= 500) {
+//	                       System.out.println(n);
+//	                       n = n * 2;
+//	                   }
+//	               }
+//	           }
+//	            
+//	           4. Write a program to print the first 20 terms of the Fibonacci series using a for loop.
+//	           ---->
+//	            	public class FibonacciSeries {
+//	               public static void main(String[] args) {
+//	                   int a = 0, b = 1;
+//
+                   System.out.println("First 20 Fibonacci terms:");
+//	                   for (int i = 1; i <= 20; i++) {
+//	                       System.out.print(a + " ");
+//	                       int next = a + b;
+//	                       a = b;
+//	                       b = next;
+//	                   }
+//	               }
+//	           }
+//
+//	           5. Write a program that takes a number as input. If the number is negative, immediately exit the program using return. Otherwise, print the square of the number.
+//	           ---->
+//	            	import java.util.Scanner;
+//
+//	           public class SquareOrExit {
+//	               public static void main(String[] args) {
+//	                   Scanner sc = new Scanner(System.in);
+//	                   System.out.print("Enter a number: ");
+	           //        int num = sc.nextInt();
+//
+//	                   if (num < 0)
+//	                       return;
+//
+   //              System.out.println("Square: " + (num * num));
+//	               }
+//	           }
+//
+//
+//
+//	           (note : dont use scanner)
+//	     
+
 	                
 	                
 	                
