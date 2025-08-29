@@ -61,8 +61,62 @@ public class Functions {
 		return "Hello"+name;
 	}
 	
+	
+	
+	// varargs
+	//rules: 1) only 1 varargs is allowed per method (int ...num, int... days) X
+	// 2) varargs parameter always comes last (int... num ,String name) X
+	// 3) might cause ambiguty issue
+	public static int add(int... num ) {
+		int total = 0;
+		for(int i:num) {
+			total += i;
+		}
+		return total;
+	}
+	
+	
+	public static String Concat(String... words) {
+		String T = " ";
+		for (String i:words) {
+			T +=i +" ";
+		}
+		return T;
+	}
+	
+	
+	public static int  Max(int... numbers) {
+		int large = numbers[0];
+		for (int i: numbers) {
+			if(i > large) {
+				large = i;
+			}
+		} return large;
+	}
+	
+	
+	public static int Find(int... n) {
+		for(int i:n) {
+			if(i%2 == 0) {
+				return i ;
+			}
+		}
+		for (int i:n) {
+			if(i%2 != 0) {
+				return i;
+			}
+		}
+		return n[0];
+	}
+	
+	
+    int age = 20;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Functions func = new Functions();
+		System.out.println(func.age);
+		
 		MultiplicationTable();
 		NaturalNumber();
 		SquareNumber();
@@ -71,6 +125,10 @@ public class Functions {
 		Hello("Khilchand");
 		System.out.println(add(2,7));
 		System.out.println(hello(" java"));
+		System.out.println(add(100,500,400,200));
+		System.out.println(Concat("abc","xyz","pqr"));
+		System.out.println(Max(5,7,3,4,2,2));
+		System.out.println(Find(10,6,3,5,4,7));
 	}
 
 }
