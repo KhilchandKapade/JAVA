@@ -18,12 +18,12 @@ public class ExceptionHandling {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-
+		int di = 0;
 		System.out.println("Enter the numetor:");
 		int num = sc.nextInt();
 		System.out.println("Enter the denometor:");
 		int den = sc.nextInt();
-
+		
 		try {
 			int div = num/den;
 			System.out.println(div);
@@ -33,17 +33,18 @@ public class ExceptionHandling {
 			System.out.println(ie.getMessage());
 		}catch(Exception e) {
 			e.printStackTrace();
-		}
-		System.out.println("Thanks");
+		}finally {
+		System.out.println(di);;
+  		}System.out.println("Thanks you");
 
 
 
-//		FileReader file;
-//		try {
-//			file = new FileReader("lab.txt");
-//		}catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		}
+		//		FileReader file;
+		//		try {
+		//			file = new FileReader("lab.txt");
+		//		}catch (FileNotFoundException e) {
+		//			e.printStackTrace();
+		//		}
 		//		try {
 		//			System.out.println(file.read());
 		//		}catch(Exception e) {
