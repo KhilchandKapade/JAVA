@@ -2,7 +2,7 @@ package com.project;
 
 public class AtmMachine implements Atm {
 
-	private String bankName;
+	 String bankName;
 	
 	@Override
 	public void debit() {
